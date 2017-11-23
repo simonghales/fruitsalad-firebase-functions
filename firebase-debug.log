@@ -1,0 +1,30 @@
+[debug] [2017-11-23T13:02:21.455Z] ----------------------------------------------------------------------
+[debug] [2017-11-23T13:02:21.458Z] Command:       /Users/simonhales/.nvm/versions/node/v8.2.1/bin/node /Users/simonhales/.nvm/versions/node/v8.2.1/bin/firebase serve --only functions
+[debug] [2017-11-23T13:02:21.459Z] CLI Version:   3.15.3
+[debug] [2017-11-23T13:02:21.459Z] Platform:      darwin
+[debug] [2017-11-23T13:02:21.459Z] Node Version:  v8.2.1
+[debug] [2017-11-23T13:02:21.459Z] Time:          Thu Nov 23 2017 23:02:21 GMT+1000 (AEST)
+[debug] [2017-11-23T13:02:21.459Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-23T13:02:21.474Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-23T13:02:21.474Z] > authorizing via signed-in user
+[debug] [2017-11-23T13:02:21.476Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fruit-salad-67ac1  
+ Thu Nov 23 2017 23:02:21 GMT+1000 (AEST)
+[debug] [2017-11-23T13:02:22.552Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T13:02:22.552Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fruit-salad-67ac1/tokens  
+ Thu Nov 23 2017 23:02:22 GMT+1000 (AEST)
+[debug] [2017-11-23T13:02:23.824Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/simonhales/WebstormProjects/fruitsalad-firebase-functions'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-23T13:02:24.074Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/fruit-salad-67ac1  
+ Thu Nov 23 2017 23:02:24 GMT+1000 (AEST)
+[debug] [2017-11-23T13:02:24.075Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/fruit-salad-67ac1/apiKeys  
+ Thu Nov 23 2017 23:02:24 GMT+1000 (AEST)
+[debug] [2017-11-23T13:02:25.568Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T13:02:25.570Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: startGame: http://localhost:5000/fruit-salad-67ac1/us-central1/startGame
+[info] ✔  functions: helloWorld: http://localhost:5000/fruit-salad-67ac1/us-central1/helloWorld
+[info] ✔  functions: helloWorldSequel: http://localhost:5000/fruit-salad-67ac1/us-central1/helloWorldSequel
+[info] ✔  functions: continueGame: http://localhost:5000/fruit-salad-67ac1/us-central1/continueGame

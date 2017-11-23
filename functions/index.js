@@ -20,3 +20,11 @@ exports.startGame = functions.https.onRequest((request, response) => {
   response.sendStatus(200);
   // response.send('Starting game');
 });
+
+exports.continueGame = functions.https.onRequest((request, response) => {
+  console.log('Continuing game');
+  const sessionCode = 'SILLYKITTENS';
+  drawDuoFunctions.continueGame(sessionCode);
+  response.sendStatus(200);
+  // response.send('Starting game');
+});
